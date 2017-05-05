@@ -1,14 +1,37 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+      <Top-nav></Top-nav>
+
+
   </div>
 </template>
 
 <script>
+  import TopNav from './components/top-nav/top-nav';
+
 export default {
-  name: 'app'
+  name: 'app',
+  data(){
+      return{
+
+      }
+  },
+
+  method:{
+
+  },
+
+  computed:{
+
+  },
+
+
+  components:{
+    TopNav
+  }
 }
+
+
 </script>
 
 <style>
