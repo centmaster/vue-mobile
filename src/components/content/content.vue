@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div>
+
   </div>
 </template>
 
@@ -11,6 +11,8 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  method:{
   }
 }
 </script>

@@ -1,1 +1,1 @@
-利用vue做一个仿qq的移动端应用。同时联系vuex和vue-router的用法
+利用vue做一个移动端应用。同时联系vuex和vue-router的用法.MintUI用来做ui手势库

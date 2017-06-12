@@ -2,13 +2,13 @@
   <div id="app">
       <Top-nav></Top-nav>
       <router-view></router-view>
-
+      <Tab-bar></Tab-bar>
   </div>
 </template>
 
 <script>
   import TopNav from './components/top-nav/top-nav';
-
+  import TabBar from './components/tabbar/tabbar.vue'
 export default {
   name: 'app',
   data(){
@@ -27,7 +27,8 @@ export default {
 
 
   components:{
-    TopNav
+    TopNav,
+    TabBar
   }
 }
 
