@@ -1,10 +1,12 @@
 <template>
-  <div class="hello">
+  <div class="nav">
+
     <button>{{ msg }}</button>
   </div>
 </template>
 
 <script>
+
   export default {
     name: 'hello',
     data () {
@@ -17,21 +19,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
-  }
+ button{
+   width:150px;
+   height: 40px;
+   margin: 0 auto;
+ }
 </style>
